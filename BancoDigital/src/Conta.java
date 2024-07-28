@@ -36,5 +36,5 @@ public abstract class Conta implements IConta {
     }
 
     // Método protegido para saque, pode ser sobrescrito por subclasses
-    protected abstract boolean sacar(double valor);
+    public abstract boolean sacar(double valor);
 }

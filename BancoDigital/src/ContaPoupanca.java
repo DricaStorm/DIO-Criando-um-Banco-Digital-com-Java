@@ -6,8 +6,8 @@ public class ContaPoupanca extends Conta {
     }
 
     @Override
-    protected boolean sacar(double valor) {
-        return super.sacar(valor);
+    public boolean sacar(double valor) {
+        return sacar(valor);
     }
 
     public void aplicarRendimento() {

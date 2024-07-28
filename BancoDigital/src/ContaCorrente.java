@@ -6,7 +6,7 @@ public class ContaCorrente extends Conta {
     }
 
     @Override
-    protected boolean sacar(double valor) {
-        return super.sacar(valor + TAXA_SAQUE);
+    public boolean sacar(double valor) {
+        return sacar(valor + TAXA_SAQUE);
     }
 }
